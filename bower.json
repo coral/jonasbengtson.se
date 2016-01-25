@@ -1,0 +1,25 @@
+{
+  "name": "jonasbengtson.se",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/coral/jonasbengtson.se",
+  "authors": [
+    "coral <jonas@jonasbengtson.se>"
+  ],
+  "description": "lol",
+  "keywords": [
+    "wut"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~4.0.0",
+    "mojs": "~0.174.4"
+  }
+}

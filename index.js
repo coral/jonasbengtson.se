@@ -1,10 +1,3 @@
-var express = require('express');
-var app = express();
+var portfolio = require('./lib/server.js');
 
-app.get('/', function (req, res) {
-  res.send('KEK');
-});
-
-app.listen(38190, "127.0.0.1", function () {
-  console.log('Example app listening on port 38190!');
-});
+portfolio.start();
